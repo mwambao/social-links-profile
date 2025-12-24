@@ -10,11 +10,12 @@ body {
     font-size: 0.875;
     background-color: var(--grey-900);
     color: var(--white);
+    text-align: center;
 }
-
+/*
 * {
     border: 1px solid red;
-}
+} */
 
 .container {
     display: grid;
@@ -34,24 +35,33 @@ body {
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    background-color: var(--grey-800);
+    border-radius: 4%;
 
 }
 
 .my-pic {
     grid-area: my-pic;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .my-name {
     grid-area: my-name;
+    margin-bottom: 10px;
 }
 
 .my-location {
     grid-area: my-location;
+    margin-bottom: 20px;
+    color: var(--green);
 }
 
 .my-interests {
     grid-area: my-interests;
+    margin-bottom: 20px;
 }
 
 .github {
@@ -72,10 +82,22 @@ body {
 
 .instagram {
     grid-area: instagram;
+    margin-bottom: 20px;
+}
+
+.duncan {
+    border-radius: 50%;
 }
 .socials {
     background-color: var(--grey-700);
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 4px;
 }
 
+a {
+    text-decoration: none;
+    color: var(--white);
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
