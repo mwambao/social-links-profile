@@ -11,5 +11,71 @@ body {
     background-color: var(--grey-900);
     color: var(--white);
 }
+
+* {
+    border: 1px solid red;
+}
+
+.container {
+    display: grid;
+    width: 375px;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto;
+    grid-template-areas:
+    'my-pic'
+    'my-name'
+    'my-location'
+    'my-interests'
+    'github'
+    'frontendmentor'
+    'linkedin'
+    'twitter'
+    'instagram';
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 80px;
+
+}
+
+.my-pic {
+    grid-area: my-pic;
+}
+
+.my-name {
+    grid-area: my-name;
+}
+
+.my-location {
+    grid-area: my-location;
+}
+
+.my-interests {
+    grid-area: my-interests;
+}
+
+.github {
+    grid-area: github;
+}
+
+.frontendmentor {
+    grid-area: frontendmentor;
+}
+
+.linkedin {
+    grid-area: linkedin;
+}
+
+.twitter {
+    grid-area: twitter;
+}
+
+.instagram {
+    grid-area: instagram;
+}
+.socials {
+    background-color: var(--grey-700);
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
