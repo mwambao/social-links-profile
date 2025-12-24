@@ -11,6 +11,7 @@ body {
     background-color: var(--grey-900);
     color: var(--white);
     text-align: center;
+    font-family: "Inter", sans-serif;
 }
 /*
 * {
@@ -35,8 +36,8 @@ body {
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 90px;
-    margin-bottom: 100px;
+    margin-top: 120px;
+    margin-bottom: 30px;
     background-color: var(--grey-800);
     border-radius: 4%;
 
@@ -82,7 +83,7 @@ body {
 
 .instagram {
     grid-area: instagram;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .duncan {
@@ -99,5 +100,28 @@ a {
     text-decoration: none;
     color: var(--white);
 }
+
+.socials:hover, a:hover{
+    cursor: hand;
+    background-color: var(--green);
+    color: var(--grey-900);
+}
+
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media screen and (width < 1440px) {
+ /*
+    * {
+        border: 1px solid red;
+    } */
+
+    .container {
+        width: 320px;
+        border-radius: 8px;
+    }
+}
+    
