@@ -7,7 +7,7 @@
 }
 
 body {
-    font-size: 0.875;
+    font-size: 0.875; /* 14px */
     background-color: var(--grey-900);
     color: var(--white);
     text-align: center;
@@ -20,7 +20,7 @@ body {
 
 .container {
     display: grid;
-    width: 375px;
+    width: 23.438rem; /* 357px */
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto auto auto auto auto auto;
     grid-template-areas:
@@ -36,33 +36,33 @@ body {
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 120px;
-    margin-bottom: 30px;
+    margin-top: 7.5rem; /* 120px */
+    margin-bottom: 1.875rem; /* 30px */
     background-color: var(--grey-800);
-    border-radius: 4%;
+    border-radius: 3%;
 
 }
 
 .my-pic {
     grid-area: my-pic;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 2.5rem; /* 40px */
+    margin-bottom: 1.25rem; /* 20px */
 }
 
 .my-name {
     grid-area: my-name;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem; /* 10px */
 }
 
 .my-location {
     grid-area: my-location;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem; /* 20px */
     color: var(--green);
 }
 
 .my-interests {
     grid-area: my-interests;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem; /* 20px */
 }
 
 .github {
@@ -83,7 +83,7 @@ body {
 
 .instagram {
     grid-area: instagram;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem; /* 40px */
 }
 
 .duncan {
@@ -91,9 +91,9 @@ body {
 }
 .socials {
     background-color: var(--grey-700);
-    padding: 10px;
-    margin-top: 15px;
-    border-radius: 4px;
+    padding: 0.625rem; /* 10px */
+    margin-top: 0.938rem;
+    border-radius: 0.25rem;
 }
 
 a {
@@ -120,8 +120,8 @@ a {
     } */
 
     .container {
-        width: 320px;
-        border-radius: 8px;
+        width: 20rem; /* 320px */
+        border-radius: 0.5rem;
     }
 }
     
