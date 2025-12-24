@@ -101,13 +101,11 @@ a {
     color: var(--white);
 }
 
-.socials:hover, a:hover{
+.socials:hover, a:hover, .socials:focus, a:focus{
     cursor: hand;
     background-color: var(--green);
     color: var(--grey-900);
 }
-
-
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
@@ -121,7 +119,7 @@ a {
 
     .container {
         width: 20rem; /* 320px */
-        border-radius: 0.5rem;
+        border-radius: 8px;
     }
 }
     
